@@ -48,7 +48,7 @@ header ul li a {
   box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, .4);
 }
 
-.home-content a.large-button {
+a.large-button {
   text-decoration: none;
   position: absolute;
   color: #ffffff;
@@ -58,4 +58,5 @@ header ul li a {
   font-size: 18px;
   box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, .4);
   top: 335px;
+  left: 150px;
   }
