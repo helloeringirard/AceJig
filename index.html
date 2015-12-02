@@ -13,6 +13,7 @@
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/dropit.css">
 
  </head>
  <body>
@@ -20,7 +21,33 @@
   <!-- HEADER -->
     <header>
           <ul>
-              <li id="menu-button"><a href="#"><i class="fa fa-navicon"></i></a></li>
+            <!-- drop it menu code -->   
+            <ul class="menu">
+            <li id="menu-button">
+              <a href="#" class="btn"><i class="fa fa-navicon"></i></a>
+              <ul>
+                  <li class="right"><a href="#"><i class="fa fa-close"></i></a>
+                  <li><a href="#">Featured</a></li>
+                  <li><a class="sublink" href="browse_main.html">New Arrivals</a></li>
+                  <li><a class="sublink" href="#">Jenna + Cary's Picks</a></li>
+                  <li><a href="#">Women's</a></li>
+                  <li><a class="sublink" href="#">Dresses</a></li>
+                  <li><a class="sublink" href="#">Tops</a></li>
+                  <li><a class="sublink" href="#">Bottoms</a></li>
+                  <li><a class="sublink" href="#">One-Pieces</a></li>
+                  <li><a class="sublink" href="#">Accessories</a></li>
+                  <li><a class="sublink" href="#">Sale</a></li>
+                  <li><a href="#">Kid's</a></li>
+                  <li><a class="sublink" href="#">Tops</a></li>
+                  <li><a class="sublink" href="#">Bottoms</a></li>
+                  <li><a class="sublink" href="#">Sale</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Contact</a></li>
+              </ul>
+            </li>
+          </ul>
+            <!-- end drop it menu code -->
+
               <li id="cart-button"><a href="cart.html"><i class="fa fa-shopping-cart"></i></a></li>
           </ul>
     </header>
@@ -54,7 +81,7 @@
         <a id="insta1" href="#"><img src="images/index/insta1.png" alt="social 1" /></a>
         <a id="insta2" href="#"><img src="images/index/insta2.png" alt="social 2" /></a>
         <a id="insta3" href="#"><img src="images/index/insta3.png" alt="social 3" /></a>
-        <a href="#" id="insta" class="med-button green"><p>INSTAGRAM</p></a>
+        <a href="https://www.instagram.com/aceandjig/" id="insta" class="med-button green"><p>INSTAGRAM</p></a>
       </div>
 
       <div class="home-content">
@@ -81,6 +108,16 @@
       </div>  
 
     </section> 
+
+<!--drop it js-->
+
+<script src="js/jquery-2.1.4.min.js"></script>
+   <script src="js/dropit.js"></script>
+   <script type="text/javascript">
+     $(".menu").dropit();
+   </script>
+
+<!--end drop it js-->
 
  </body>
  </html>

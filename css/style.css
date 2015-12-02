@@ -186,6 +186,9 @@ header ul li a {
 
 #menu-button {
   float: left;
+  position:absolute;
+  left: 0;
+  top: 20;
 }
 
 #cart-button {
@@ -272,7 +275,7 @@ header ul li a {
   width: 100%;
   padding-bottom: 40px;
   display: block;
-  height: 160px;
+  height: 90px;
   clear:both;
 }
 
@@ -314,7 +317,7 @@ header ul li a {
 }
 
 .browse_item a .product_price {
-  font-weight: 200;
+  font-weight: 400;
   padding-bottom: 15px;
 }
 
