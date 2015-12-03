@@ -35,14 +35,14 @@
    height: 530px;
 }
 
- .dropit .dropit-open .dropit-submenu li {
+.dropit .dropit-open .dropit-submenu li {
   display: block;
   margin-top: 10px;
   width: 200px;
   float: left;
  }
 
- .dropit .dropit-open .dropit-submenu .right {
+.dropit .dropit-open .dropit-submenu .right {
   display: block;
   margin-bottom: 15px;
   margin-top: 10px;

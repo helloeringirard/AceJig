@@ -20,8 +20,9 @@
   <!-- HEADER -->
     <header class="header">
           <ul>
-              <li id="back-button"><a href="#"><i class="fa fa-caret-left"></i></a></li>
+              <li onclick="goBack()" id="back-button"><a href="#"><i class="fa fa-caret-left"></i></a></li>
               <li id="cart-button"><a href="cart.html"><i class="fa fa-shopping-cart"></i></a></li>
+              <li><p>Base Pant | Fable</p></li>
           </ul>
     </header>
 
@@ -34,10 +35,12 @@
   <a href="#" class="small-button"><p>+INFO</p></a>
 </div>
 
-<div class="size_choice">
-  <a href="#" class="size-button"><p>size</p></a>
-  <i class="fa fa-caret-down"></i>
-</div>
+<ul class="size_choice">
+  <li>size</li>
+    <ul class="size_options">
+      <li>extra-small</li>
+    </ul>
+</ul>
 
 <div class="add_cart">
   <a href="#" class="add_cart_button"><p>ADD TO CART</p></a>
@@ -46,6 +49,28 @@
 <div class="reviews">
   <a href="#" class="expand_reviews"><i class="fa fa-plus-square-o"></i><p>Read Reviews</p></a>
 </div>
+
+<!--back button js-->
+
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
+
+<!--end back button js-->
+
+<!--drop it js-->
+
+<script src="js/jquery-2.1.4.min.js"></script>
+   <script src="js/dropit.js"></script>
+   <script type="text/javascript">
+     $(".menu").dropit();
+   </script>
+
+<!--end drop it js-->
+
+
 
 </body>
 </html>
