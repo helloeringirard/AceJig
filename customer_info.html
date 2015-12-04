@@ -13,43 +13,34 @@
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-
- </head>
+</head>
  <body class="product_page">
 
   <!-- HEADER -->
     <header class="header">
           <ul>
               <li onclick="goBack()" id="back-button"><a href="#"><i class="fa fa-caret-left"></i></a></li>
-              <li id="cart-button"><a href="cart.html"><i class="fa fa-shopping-cart"></i></a></li>
-              <li><p>Base Pant | Fable</p></li>
           </ul>
     </header>
 
   <!-- BODY -->
 
-<div class="product_page">
-  <div class="product_image">
-    <img src="images/product_images/base_pant_fable.png" />
-  </div>
-  <a href="#" class="small-button"><p>+INFO</p></a>
-</div>
+    <body>
+    <div class="cust_info">
 
-<ul >
-  <li>size</li>
-    <ul >
-      <li>extra-small</li>
-    </ul>
-</ul>
+    <p>customer information</p>
 
-<div class="add_cart">
-  <a href="#" class="add_cart_button"><p>ADD TO CART</p></a>
-</div>
+    <form>
 
-<div class="reviews">
-  <a href="#" class="expand_reviews"><i class="fa fa-plus-square-o"></i><p>Read Reviews</p></a>
-</div>
+      <input name="firstname">
+        <br>
+      <input type="text" name="lastname">
 
+      <a class="xl-button navy">CONTINUE</a>   
+
+    </form>
+
+    </div>
 <!--back button js-->
 
 <script>
@@ -60,17 +51,6 @@ function goBack() {
 
 <!--end back button js-->
 
-<!--drop it js-->
+    </body>
+    </html>
 
-<script src="js/jquery-2.1.4.min.js"></script>
-   <script src="js/dropit.js"></script>
-   <script type="text/javascript">
-     $(".menu").dropit();
-   </script>
-
-<!--end drop it js-->
-
-
-
-</body>
-</html>
