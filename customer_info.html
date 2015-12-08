@@ -25,20 +25,27 @@
 
   <!-- BODY -->
 
-    <body>
+    <body class="cust_info">
     <div class="cust_info">
 
     <p>customer information</p>
 
-    <form>
+    <div align="center">
+      <form>
 
-      <input name="firstname">
-        <br>
-      <input type="text" name="lastname">
+        <input name="firstname" placeholder="First Name" onclick="this.value='';">
+        <input name="lastname" placeholder="Last Name" onclick="this.value='';">
+        <input name="address" placeholder="Address" onclick="this.value='';">
+        <input name="address2" placeholder="Address 2 (optional)" onclick="this.value='';">
+        <input name="city" placeholder="City" onclick="this.value='';">
+        <input name="state" placeholder="State" onclick="this.value='';">
+        <input name="zip" placeholder="Zip Code" onclick="this.value='';">
+        <input name="email" placeholder="Email Address" onclick="this.value='';">
 
-      <a class="xl-button navy">CONTINUE</a>   
+        <a href="finalize_order.html" class="xl-button navy">CONTINUE</a>   
 
     </form>
+    </div>
 
     </div>
 <!--back button js-->
@@ -47,6 +54,8 @@
 function goBack() {
     window.history.back();
 }
+</script>
+
 </script>
 
 <!--end back button js-->
